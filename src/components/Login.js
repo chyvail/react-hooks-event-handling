@@ -1,9 +1,10 @@
 import React from "react";
 
 function Login() {
+  // forms work with onsubmit => handle data that has been submitted
   function handleSubmit(event) {
-    event.preventDefault();
-    console.log("I submit");
+    event.preventDefault(); // prevent form from making a network request
+    console.log(event);
   }
 
   return (

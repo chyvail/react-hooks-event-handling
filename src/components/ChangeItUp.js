@@ -1,6 +1,7 @@
 import React from "react";
 
 function ChangeItUp() {
+  // useful when handling changes in inputs and selects or textareas
   function handleChange(event) {
     console.log(`${event.target.name}: ${event.target.value}`);
   }
